@@ -10,6 +10,7 @@ body {
 
 main {
   max-width: 500px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -18,4 +19,26 @@ h1 {
 
 p {
   line-height: 1.5;
+}
+
+.box {
+  position: relative;
+  width: 180px;
+  height: 100px;
+  margin-bottom: 12px;
+  padding: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.box-one {
+  background: #d94b4b;
+}
+
+.box-two {
+  background: #3678c8;
+}
+
+.box-three {
+  background: #31936b;
 }
